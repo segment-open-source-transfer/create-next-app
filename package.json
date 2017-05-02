@@ -20,6 +20,7 @@
     "commander": "^2.9.0",
     "cross-spawn": "^5.1.0",
     "execa": "^0.6.3",
+    "fs-extra": "^3.0.0",
     "mkdirp-then": "^1.2.0",
     "ms": "^1.0.0",
     "mz": "^2.6.0",
