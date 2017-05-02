@@ -1,7 +1,7 @@
 {
   "name": "create-next-app",
   "description": "Create Next.js apps in one command",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "main": "index.js",
   "license": "MIT",
   "bin": {
