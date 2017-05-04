@@ -33,7 +33,6 @@ my-app/
   package.json
   next.config.js
   components/
-    index.js
     head.js
     nav.js
   pages/
@@ -116,7 +115,7 @@ We recommend keeping React components in `./components` and they should look lik
 ### `./components/simple.js`
 
 ```jsx
-export const Simple = () => (
+const Simple = () => (
   <div>Simple Component</div>
 ) // you need to export the component individually so that it can be picked up via index.js
 
@@ -128,7 +127,7 @@ export default Simple // don't forget to export default!
 ```jsx
 import { Component } from 'react'
 
-export class Complex extends Component {
+class Complex extends Component {
   state = {
     text: 'World'
   }
@@ -141,25 +140,6 @@ export class Complex extends Component {
 
 export default Complex // don't forget to export default!
 ```
-
-### `./components/index.js`
-
-```jsx
-export * from './simple'
-export * from './complex'
-```
-
-Be aware of the [difference between default and named exports](http://stackoverflow.com/questions/36795819/react-native-es-6-when-should-i-use-curly-braces-for-import/36796281#36796281). It is a common source of mistakes.
-
-We suggest that you stick to using default imports and exports when a module only exports a single thing (for example, a component). That’s what you get when you use `export default Simple` and `import Simple from './components/simple'`. Named imports allow us to surface all of the components in code like `import { Simple, Complex } from './components'`
-
-Named exports are useful for utility modules that export several functions. A module may have at most one default export and as many named exports as you like.
-
-Learn more about ES6 modules:
-
-* [When to use the curly braces?](http://stackoverflow.com/questions/36795819/react-native-es-6-when-should-i-use-curly-braces-for-import/36796281#36796281)
-* [Exploring ES6: Modules](http://exploringjs.com/es6/ch_modules.html)
-* [Understanding ES6: Modules](https://leanpub.com/understandinges6/read#leanpub-auto-encapsulating-code-with-modules)
 
 ## Fetching Data
 
