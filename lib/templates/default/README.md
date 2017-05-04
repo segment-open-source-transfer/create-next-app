@@ -117,7 +117,7 @@ We recommend keeping React components in `./components` and they should look lik
 ```jsx
 const Simple = () => (
   <div>Simple Component</div>
-) // you need to export the component individually so that it can be picked up via index.js
+)
 
 export default Simple // don't forget to export default!
 ```
