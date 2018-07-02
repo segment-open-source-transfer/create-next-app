@@ -14,7 +14,7 @@ program
   .version(pkg.version)
   .arguments('<project-directory>')
   .usage(`${chalk.green('<project-directory>')} [options]`)
-  .action(function (name) {
+  .action(function(name) {
     projectName = name
   })
   .option('-e, --example <example-path>', messages.exampleHelp())
