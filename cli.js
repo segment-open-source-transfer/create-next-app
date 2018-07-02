@@ -2,8 +2,8 @@
 
 const chalk = require('chalk')
 const program = require('commander')
-const lib = require('..')
-const pkg = require('../package.json')
+const lib = require('.')
+const pkg = require('./package.json')
 
 const messages = lib.messages
 const createNextApp = lib.createNextApp
