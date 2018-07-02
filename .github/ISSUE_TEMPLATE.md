@@ -36,14 +36,14 @@ Tell us what actually happens.
 
 Run these commands in the project folder and fill in their results:
 
-1. `create-next-app --version`:
-2. `node --version`:
-3. `npm --version`:
+1.  `create-next-app --version`:
+2.  `node --version`:
+3.  `npm --version`:
 
 Then, specify:
 
-1. Operating system:
-2. Browser and version:
+1.  Operating system:
+2.  Browser and version:
 
 ### Reproducible Demo
 
