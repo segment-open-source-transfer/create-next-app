@@ -4,6 +4,10 @@
   "version": "0.5.3",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint bin/* 'lib/**/*.js'",
+    "precommit": "lint-staged"
+  },
   "bin": {
     "create-next-app": "./bin/create-next-app"
   },
@@ -34,5 +38,39 @@
     "create-next-app",
     "create-react-app",
     "boilerplate"
-  ]
+  ],
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^5.0.1",
+    "eslint-plugin-react": "^7.10.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.0"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "lib/*.js",
+          "lib/utils/*.js"
+        ],
+        "rules": {
+          "no-console": 0
+        }
+      }
+    ]
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
 }
