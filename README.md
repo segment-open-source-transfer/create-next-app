@@ -5,7 +5,7 @@ The easiest way to create a [React](https://facebook.github.io/react) app with s
 [![Mentioned in Awesome Next JS](https://awesome.re/mentioned-badge.svg)](https://github.com/unicodeveloper/awesome-nextjs)
 
 - [Getting Started](#getting-started) — How to create an app
-- [User Guide](https://github.com/segmentio/create-next-app/blob/master/lib/templates/default/README.md) —  How to develop apps started with Create Next App
+- [User Guide](https://github.com/segmentio/create-next-app/blob/master/lib/templates/default/README.md) — How to develop apps started with Create Next App
 - [Starting from Examples](#starting-from-examples) — How to create an app from a Next.js example
 
 If you run into any issues or have feedback, please [file an issue](https://github.com/segmentio/create-next-app/issues/new)
@@ -116,39 +116,38 @@ There are a ton of examples in the [Next.js repo](https://github.com/zeit/next.j
 
 To use an example:
 
-1. Go to https://open.segment.com/create-next-app#examples
-2. Search for an example you want and get it's name (looks like `basic-css`)
-3. Run: `create-next-app --example basic-css example-app`
-4. Done 💥
+1.  Go to https://open.segment.com/create-next-app#examples
+2.  Search for an example you want and get it's name (looks like `basic-css`)
+3.  Run: `create-next-app --example basic-css example-app`
+4.  Done 💥
 
 ## Acknowledgements
 
 We are grateful to the authors of existing related projects for their ideas as inspiration:
 
-* [Create React App](https://github.com/facebookincubator/create-react-app)
-* [Next.js](https://github.com/zeit/next.js)
-* [@eanplatter](https://github.com/eanplatter)
-* [@insin](https://github.com/insin)
-* [@mxstbr](https://github.com/mxstbr)
+- [Create React App](https://github.com/facebookincubator/create-react-app)
+- [Next.js](https://github.com/zeit/next.js)
+- [@eanplatter](https://github.com/eanplatter)
+- [@insin](https://github.com/insin)
+- [@mxstbr](https://github.com/mxstbr)
 
 Looking for alternatives? Here are some other project starter kits:
 
-* [Create React App](https://github.com/facebookincubator/create-react-app)
-* [insin/nwb](https://github.com/insin/nwb)
-* [mozilla-neutrino/neutrino-dev](https://github.com/mozilla-neutrino/neutrino-dev)
-* [NYTimes/kyt](https://github.com/NYTimes/kyt)
-* [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
-* [enclave](https://github.com/eanplatter/enclave)
-* [motion](https://github.com/motion/motion)
-* [quik](https://github.com/satya164/quik)
-* [sagui](https://github.com/saguijs/sagui)
-* [roc](https://github.com/rocjs/roc)
-* [aik](https://github.com/d4rkr00t/aik)
-* [react-app](https://github.com/kriasoft/react-app)
-* [dev-toolkit](https://github.com/stoikerty/dev-toolkit)
-* [tarec](https://github.com/geowarin/tarec)
-* [sku](https://github.com/seek-oss/sku)
-
+- [Create React App](https://github.com/facebookincubator/create-react-app)
+- [insin/nwb](https://github.com/insin/nwb)
+- [mozilla-neutrino/neutrino-dev](https://github.com/mozilla-neutrino/neutrino-dev)
+- [NYTimes/kyt](https://github.com/NYTimes/kyt)
+- [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
+- [enclave](https://github.com/eanplatter/enclave)
+- [motion](https://github.com/motion/motion)
+- [quik](https://github.com/satya164/quik)
+- [sagui](https://github.com/saguijs/sagui)
+- [roc](https://github.com/rocjs/roc)
+- [aik](https://github.com/d4rkr00t/aik)
+- [react-app](https://github.com/kriasoft/react-app)
+- [dev-toolkit](https://github.com/stoikerty/dev-toolkit)
+- [tarec](https://github.com/geowarin/tarec)
+- [sku](https://github.com/seek-oss/sku)
 
 Questions? Feedback? [Please let us know](https://github.com/segmentio/create-next-app/issues/new)
 
@@ -166,6 +165,7 @@ WWWWWW||WWWWWW
         _||_|| _||_||
        (__|__|(__|__|
 ```
+
 Copyright (c) 2017-present Segment.io, Inc. friends@segment.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
