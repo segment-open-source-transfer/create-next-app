@@ -28,7 +28,6 @@ test('empty directory', async t => {
   t.is(res.code, 0)
   t.true(fs.existsSync(path.join(cwd, projectName, 'package.json')))
   t.true(fs.existsSync(path.join(cwd, projectName, 'pages/index.js')))
-  t.true(fs.existsSync(path.join(cwd, projectName, 'node_modules/next')))
 })
 
 test('invalid example name', async t => {
