@@ -19,6 +19,7 @@ test: &test
         paths:
           - node_modules
     - run: yarn lint
+    - run: yarn test
 
 publish: &publish
   working_directory: ~/repo
