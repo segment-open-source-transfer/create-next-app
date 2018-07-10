@@ -6,8 +6,9 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint *.js 'lib/**/*.js'",
-    "precommit": "lint-staged",
-    "fmt": "prettier --write *.{md,js,json} .github/*.md 'lib/**/*.{js,json}'"
+    "fmt": "prettier --write *.{md,js,json} .github/*.md 'lib/**/*.{js,json}'",
+    "test": "ava",
+    "precommit": "lint-staged"
   },
   "bin": {
     "create-next-app": "./bin.js"
@@ -43,13 +44,15 @@
     "boilerplate"
   ],
   "devDependencies": {
+    "ava": "^1.0.0-beta.6",
     "babel-eslint": "^8.2.5",
     "eslint": "^5.0.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-react": "^7.10.0",
     "husky": "^0.14.3",
     "lint-staged": "^7.2.0",
-    "prettier": "^1.13.7"
+    "prettier": "^1.13.7",
+    "tempy": "^0.2.1"
   },
   "eslintConfig": {
     "parser": "babel-eslint",
