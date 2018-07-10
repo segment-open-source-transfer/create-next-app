@@ -28,17 +28,20 @@ Check out [Next.js FAQ & docs](https://github.com/zeit/next.js#faq) or [let us k
 After creating an app, it should look something like:
 
 ```
-my-app/
-  README.md
-  package.json
-  next.config.js
-  components/
-    head.js
-    nav.js
-  pages/
-    index.js
-  static/
-    favicon.ico
+.
+├── README.md
+├── components
+│   ├── head.js
+│   └── nav.js
+├── next.config.js
+├── node_modules
+│   ├── [...]
+├── package.json
+├── pages
+│   └── index.js
+├── static
+│   └── favicon.ico
+└── yarn.lock
 ```
 
 Routing in Next.js is based on the file system, so `./pages/index.js` maps to the `/` route and
@@ -115,9 +118,7 @@ We recommend keeping React components in `./components` and they should look lik
 ### `./components/simple.js`
 
 ```jsx
-const Simple = () => (
-  <div>Simple Component</div>
-)
+const Simple = () => <div>Simple Component</div>
 
 export default Simple // don't forget to export default!
 ```
@@ -132,7 +133,7 @@ class Complex extends Component {
     text: 'World'
   }
 
-  render () {
+  render() {
     const { text } = this.state
     return <div>Hello {text}</div>
   }
@@ -148,7 +149,7 @@ You can fetch data in `pages` components using `getInitialProps` like this:
 ### `./pages/stars.js`
 
 ```jsx
-const Page = (props) => <div>Next stars: {props.stars}</div>
+const Page = props => <div>Next stars: {props.stars}</div>
 
 Page.getInitialProps = async ({ req }) => {
   const res = await fetch('https://api.github.com/repos/zeit/next.js')
@@ -197,8 +198,7 @@ app.prepare().then(() => {
     } else {
       handle(req, res, parsedUrl)
     }
-  })
-  .listen(3000, (err) => {
+  }).listen(3000, err => {
     if (err) throw err
     console.log('> Ready on http://localhost:3000')
   })
@@ -217,9 +217,9 @@ To configure the syntax highlighting in your favorite text editor, head to the [
 
 [now](https://zeit.co/now) offers a zero-configuration single-command deployment.
 
-1. Install the `now` command-line tool either via the recommended [desktop tool](https://zeit.co/download) or via node with `npm install -g now`.
+1.  Install the `now` command-line tool either via the recommended [desktop tool](https://zeit.co/download) or via node with `npm install -g now`.
 
-2. Run `now` from your project directory. You will see a **now.sh** URL in your output like this:
+2.  Run `now` from your project directory. You will see a **now.sh** URL in your output like this:
 
     ```
     > Ready! https://your-project-dirname-tpspyhtdtk.now.sh (copied to clipboard)

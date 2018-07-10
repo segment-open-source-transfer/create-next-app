@@ -23,9 +23,9 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) to view your running app.
 When you're ready for production, run `npm run build` then `npm run start`.
 
-<img width="600" alt="Create Next App running in terminal" src="https://cloud.githubusercontent.com/assets/1026125/25556236/0ac91ca6-2cae-11e7-87ae-bb7974285063.png" />
+<img width="600" alt="Create Next App running in terminal" src="media/init-app.png" />
 
-<img width="600" alt="Create Next App running in terminal" src="https://cloud.githubusercontent.com/assets/1026125/25556240/111fc3b6-2cae-11e7-84b6-961de4fd27f9.png" />
+<img width="600" alt="Create Next App running in terminal" src="media/dev-tree.png" />
 
 ### Start Coding Now
 
@@ -61,18 +61,20 @@ It will create a directory called `my-app` inside the current folder.<br>
 Inside that directory, it will generate the initial project structure and install necessary dependencies:
 
 ```
-my-app/
-  README.md
-  package.json
-  next.config.js
-  components/
-    index.js
-    head.js
-    nav.js
-  pages/
-    index.js
-  static/
-    favicon.ico
+.
+├── README.md
+├── components
+│   ├── head.js
+│   └── nav.js
+├── next.config.js
+├── node_modules
+│   ├── [...]
+├── package.json
+├── pages
+│   └── index.js
+├── static
+│   └── favicon.ico
+└── yarn.lock
 ```
 
 Routing in Next.js is based on the file system, so `./pages/index.js` maps to the `/` route and
