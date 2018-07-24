@@ -50,6 +50,8 @@ jobs:
     <<: *publish
     docker:
       - image: circleci/node:6
+    tags:
+      only: /^v?[0-9]+(\.[0-9]+)*(-.+)?/
 
 workflows:
   version: 2
@@ -60,11 +62,6 @@ workflows:
       - test_node10
       - test_node_latest
       - publish:
-          filters:
-            tags:
-              only: '/v?[0-9]+(\.[0-9]+)*(-.+)?/'
-            branches:
-              ignore: /.*/
           requires:
             - test_node6
             - test_node8
