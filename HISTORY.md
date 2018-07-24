@@ -1,3 +1,9 @@
+# v0.5.5 / 2018-07-24
+
+- circle: fix publish tag filter
+- README: center screenshots
+- README: update screens and `tree` views
+
 # 0.5.4 / 2018-07-10
 
 - utils/load-example: add support for windows (#40)
