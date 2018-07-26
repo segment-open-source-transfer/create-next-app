@@ -27,6 +27,7 @@ publish: &publish
     - checkout
     # Login for publishing permissions
     - run: npm config set "//registry.npmjs.org/:_authToken" $NPM_AUTH
+    - run: npm config set "//registry.yarnpkg.com/:_authToken" $NPM_AUTH
     - run: npm publish
 
 jobs:
