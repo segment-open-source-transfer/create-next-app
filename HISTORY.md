@@ -1,3 +1,7 @@
+# v0.5.6 / 2018-07-26
+
+- No changes, just triggering a new release due to an issue in the deployment pipeline for v0.5.5.
+
 # v0.5.5 / 2018-07-24
 
 - circle: fix publish tag filter
