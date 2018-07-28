@@ -1,3 +1,7 @@
+# v0.5.9 / 2018-07-28
+
+- No changes, just fixing build
+
 # v0.5.8 / 2018-07-28
 
 - package: fix bin path
