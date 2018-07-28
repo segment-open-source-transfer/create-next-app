@@ -1,3 +1,7 @@
+# v0.5.8 / 2018-07-28
+
+- package: fix bin path
+
 # v0.5.7 / 2018-07-26
 
 - No changes, just checking that the deployment pipeline actually works now 🤗
