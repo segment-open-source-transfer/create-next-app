@@ -11,7 +11,7 @@
     "precommit": "lint-staged"
   },
   "bin": {
-    "create-next-app": "./bin.js"
+    "create-next-app": "./cli.js"
   },
   "engines": {
     "node": ">=4"
