@@ -127,6 +127,8 @@ To use an example:
 3.  Run: `create-next-app --example basic-css example-app`
 4.  Done 💥
 
+__It is worth noting that the *basic-css* example above uses [styled-jsx](https://github.com/zeit/styled-jsx).__
+
 ## Acknowledgements
 
 We are grateful to the authors of existing related projects for their ideas as inspiration:
