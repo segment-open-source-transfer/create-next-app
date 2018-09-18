@@ -25,16 +25,15 @@ If you run into any issues or have feedback, please <a href="https://github.com/
 
 ## Overview
 
-```sh
-npm install -g create-next-app
-
-create-next-app my-app
-cd my-app/
-npm run dev
-```
+|     | [npx](https://github.com/zkat/npx) & npm (Node 8.x.x+) | [yarn create](https://yarnpkg.com/en/docs/cli/create) (Yarn 1.0.0+) | manual install (Node 6.x.x+)     |
+| --- | ------------------------------------------------------ | ------------------------------------------------------------------- | -------------------------------- |
+| 1.  | `npx create-next-app my-app`                           | `yarn create next-app my-app`                                       | `npm install -g create-next-app` |
+| 2.  | `cd my-app/`                                           | `cd my-app/`                                                        | `create-next-app my-app`         |
+| 3.  | `npm run dev`                                          | `yarn dev`                                                          | `cd my-app/`                     |
+| 4.  |                                                        |                                                                     | `npm run dev`                    |
 
 Open [http://localhost:3000](http://localhost:3000) to view your running app.
-When you're ready for production, run `npm run build` then `npm run start`.
+When you're ready for production, run the `build` then `start` scripts.
 
 <p align='center'>
   <img width="600" alt="Create Next App running in terminal" src="media/init-app.png" />
@@ -53,29 +52,19 @@ After running `create-next-app`, you're good to go!
 
 ## Getting Started
 
-### Installation
+### Creating an App
 
-Install it once globally:
+Follow the steps in the [above table](#overview):
 
-```sh
-npm install -g create-next-app
-```
+Minimum Requirements:
 
-**You’ll need to have Node >= 6 on your machine**. You can use [nvm](https://github.com/creationix/nvm#usage) to easily switch Node versions between different projects.
+- Node >= `6.x.x` - Use [nvm](https://github.com/creationix/nvm#usage) or [asdf](https://github.com/asdf-vm/asdf#readme) to easily switch Node versions between projects.
 
 **You don't need to use Node as your primary backend**. The Node installation is only required for Create Next App and running the Next.js server in development/production.
 
-### Creating an App
+### What's in an App
 
-To create a new app, run:
-
-```
-create-next-app my-app
-cd my-app
-```
-
-It will create a directory called `my-app` inside the current folder.<br>
-Inside that directory, it will generate the initial project structure and install necessary dependencies:
+`create-next-app` will have created a directory called `my-app` inside the current folder. Inside that directory, it will generate the initial project structure and install necessary dependencies:
 
 ```
 .
@@ -140,7 +129,7 @@ To use an example:
 3.  Run: `create-next-app --example basic-css example-app`
 4.  Done 💥
 
-__It is worth noting that the *basic-css* example above uses [styled-jsx](https://github.com/zeit/styled-jsx).__
+**It is worth noting that the _basic-css_ example above uses [styled-jsx](https://github.com/zeit/styled-jsx).**
 
 ## Acknowledgements
 
