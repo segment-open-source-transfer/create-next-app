@@ -1,14 +1,27 @@
-# Create Next App
+<h1 align="center">Create Next App</h1>
 
-The easiest way to create a [React](https://facebook.github.io/react) app with server-side rendering thanks to [Next.js](https://github.com/zeit/next.js)
+<!-- description -->
+<p align="center">
+The easiest way to create a <a href="https://facebook.github.io/react">React</a> app with server-side rendering thanks to <a href="https://github.com/zeit/next.js">Next.js</a>
+</p>
 
-[![Mentioned in Awesome Next JS](https://awesome.re/mentioned-badge.svg)](https://github.com/unicodeveloper/awesome-nextjs)
+<!-- badges -->
+<p align="center">
+  <a href="https://github.com/unicodeveloper/awesome-nextjs"><img alt="Mentioned in Awesome Next JS" src="https://awesome.re/mentioned-badge.svg" /></a>
+</p>
 
-- [Getting Started](#getting-started) — How to create an app
-- [User Guide](https://github.com/segmentio/create-next-app/blob/master/lib/templates/default/README.md) — How to develop apps started with Create Next App
-- [Starting from Examples](#starting-from-examples) — How to create an app from a Next.js example
+<!-- toc -->
+<p align="center">
+    <em>
+      <a href="#getting-started">Getting Started</a>
+      · <a href="https://github.com/segmentio/create-next-app/blob/master/lib/templates/default/README.md">Starting from scratch with Create Next App</a>
+      · <a href="#starting-from-nextjs-examples">Starting from Next.js Examples</a>
+    </em>
+</p>
 
-If you run into any issues or have feedback, please [file an issue](https://github.com/segmentio/create-next-app/issues/new)
+<p align="center">
+If you run into any issues or have feedback, please <a href="https://github.com/segmentio/create-next-app/issues/new">file an issue</a>
+</p>
 
 ## Overview
 
@@ -116,7 +129,7 @@ The application should be compiled with \`npm run build\` first.
 
 Now you're ready to code & deploy your app!
 
-## Starting from Examples
+## Starting from Next.js Examples
 
 There are a ton of examples in the [Next.js repo](https://github.com/zeit/next.js/tree/master/examples/) (and growing!) that you can use to bootstrap your app.
 
