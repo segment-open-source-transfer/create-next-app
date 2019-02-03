@@ -18,7 +18,7 @@ program
   .action(function(name) {
     projectName = name
     if (minimist(process.argv.slice(2))._.length > 1) {
-      messages.multipleProjectArgs()
+      messages.hasMultipleProjectNameArgs()
       process.exit(1)
     }
   })
