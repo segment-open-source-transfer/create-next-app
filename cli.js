@@ -10,13 +10,13 @@ const createNextApp = lib.createNextApp
 
 let projectName
 
-const validateArgs = args => {
-  let hasSwitch = args.find(arg => arg.includes('-'))
-  if (hasSwitch) {
-    let index = args.indexOf(hasSwitch)
+const hasStrayArgs = args => {
+  let argIncludesOption = args.find(arg => arg.includes('-'))
+  if (argIncludesOption) {
+    let index = args.indexOf(argIncludesOption)
     args.splice(index, 2)
   }
-  return args
+  return args.length > 1
 }
 program
   .version(pkg.version)
@@ -24,7 +24,7 @@ program
   .usage(`${chalk.green('<project-directory>')} [options]`)
   .action(function(name) {
     projectName = name
-    if (validateArgs(process.argv.slice(2)).length > 1) {
+    if (hasStrayArgs(process.argv.slice(2))) {
       messages.hasMultipleProjectNameArgs()
       process.exit(1)
     }
