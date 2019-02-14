@@ -169,7 +169,7 @@ Read more about [fetching data and the component lifecycle](https://github.com/z
 
 ## Custom Server
 
-Want to start a new app with a custom server? Run `create-next-app --example customer-server custom-app`
+Want to start a new app with a custom server? Run `create-next-app --example custom-server custom-app`
 
 Typically you start your next server with `next start`. It's possible, however, to start a server 100% programmatically in order to customize routes, use route patterns, etc
 
