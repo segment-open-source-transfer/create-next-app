@@ -162,7 +162,7 @@ Looking for alternatives? Here are some other project starter kits:
 Questions? Feedback? [Please let us know](https://github.com/segmentio/create-next-app/issues/new)
 
 ## Maintainers
-This repo, `create-next-app`, was previously maintiained by Segment, Inc. It is now maintained by Zeit, Inc. 
+This repo, `create-next-app`, was previously maintained by Segment, Inc. It is now maintained by Zeit, Inc. 
 
 ## License (MIT)
 
