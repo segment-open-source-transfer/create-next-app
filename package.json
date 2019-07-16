@@ -16,9 +16,9 @@
   "engines": {
     "node": ">=4"
   },
-  "repository": "segmentio/create-next-app",
+  "repository": "zeit/create-next-app",
   "bugs": {
-    "url": "https://github.com/segmentio/create-next-app/issues"
+    "url": "https://github.com/zeit/create-next-app/issues"
   },
   "dependencies": {
     "@octokit/rest": "^15.9.4",
