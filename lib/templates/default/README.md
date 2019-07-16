@@ -1,6 +1,6 @@
-This project was bootstrapped with [Create Next App](https://github.com/segmentio/create-next-app).
+This project was bootstrapped with [Create Next App](https://github.com/zeit/create-next-app).
 
-Find the most recent version of this guide at [here](https://github.com/segmentio/create-next-app/blob/master/lib/templates/default/README.md). And check out [Next.js repo](https://github.com/zeit/next.js) for the most up-to-date info.
+Find the most recent version of this guide at [here](https://github.com/zeit/create-next-app/blob/master/lib/templates/default/README.md). And check out [Next.js repo](https://github.com/zeit/next.js) for the most up-to-date info.
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ Find the most recent version of this guide at [here](https://github.com/segmenti
 
 ## Questions? Feedback?
 
-Check out [Next.js FAQ & docs](https://github.com/zeit/next.js#faq) or [let us know](https://github.com/segmentio/create-next-app/issues) your feedback.
+Check out [Next.js FAQ & docs](https://github.com/zeit/next.js#faq) or [let us know](https://github.com/zeit/create-next-app/issues) your feedback.
 
 ## Folder Structure
 
@@ -231,4 +231,4 @@ You can find more details about [`now` here](https://zeit.co/now).
 
 ## Something Missing?
 
-If you have ideas for how we could improve this readme or the project in general, [let us know](https://github.com/segmentio/create-next-app/issues) or [contribute some!](https://github.com/segmentio/create-next-app/edit/master/lib/templates/default/README.md)
+If you have ideas for how we could improve this readme or the project in general, [let us know](https://github.com/zeit/create-next-app/issues) or [contribute some!](https://github.com/zeit/create-next-app/edit/master/lib/templates/default/README.md)
