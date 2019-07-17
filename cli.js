@@ -10,12 +10,24 @@ const createNextApp = lib.createNextApp
 
 let projectName
 
+const hasStrayArgs = args => {
+  let argIncludesOption = args.find(arg => arg.includes('-'))
+  if (argIncludesOption) {
+    let index = args.indexOf(argIncludesOption)
+    args.splice(index, 2)
+  }
+  return args.length > 1
+}
 program
   .version(pkg.version)
   .arguments('<project-directory>')
   .usage(`${chalk.green('<project-directory>')} [options]`)
   .action(function(name) {
     projectName = name
+    if (hasStrayArgs(process.argv.slice(2))) {
+      messages.hasMultipleProjectNameArgs()
+      process.exit(1)
+    }
   })
   .option('-e, --example <example-path>', messages.exampleHelp())
   .allowUnknownOption()
