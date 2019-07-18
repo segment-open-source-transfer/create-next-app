@@ -18,13 +18,16 @@ program
     projectName = name
   })
   .option('-e, --example <example-path>', messages.exampleHelp())
+  .option('-c, --clone-repo <clone-repo-path>', messages.cloneRepoHelp())
   .allowUnknownOption()
   .on('--help', messages.help)
   .parse(process.argv)
 
 const example = program.example
+const cloneRepo = program.cloneRepo
 
 createNextApp({
   projectName,
-  example
+  example,
+  cloneRepo
 })
